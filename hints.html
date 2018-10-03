@@ -1,41 +1,58 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-<title>ALttP Randomizer v30: what do the hints mean?</title>
+<title>ALttP Randomizer v30 hints explained</title>
 
 <style>
-    body {padding: 1em; line-height: 140%;}
-    h1, h2 {color: #a08;}
+    body {
+        padding: 1em; line-height: 140%;
+        padding-bottom: 10em;
+    }
+    h1, h2 {color: #7b6;}
+    h1.with-subtitle {
+        margin-bottom: 0.2ex;
+        text-align: center;
+    }
+    h2.subtitle {
+        margin-top: 0;
+        font-size: 110%;
+        color: #473;
+        text-align: center;
+    }
+    .byline {
+        text-align: center;
+    }
 </style>
 
 </style>
 </head>
 <body>
-    <h1>What do the hints mean?</h1>
+    <h1 class="with-subtitle">ALttP Randomizer Hints Explained</h1>
+    <h2 class="subtitle">in more detail than you thought you needed</h2>
+    <p class="byline">by
+        <a href="https://twitter.com/arborelia"><b>arborelia</b></a>
+        (follow me on <a href="https://twitch.tv/arborelia">Twitch</a>)
+    </p>
     <p>
         The hints in
-        <a href="https://alttpr.com/en">ALttP Randomizer</a>
-        are cute, but you might not always know what they mean, especially if you're just getting
-        started with v30 or English isn't your first language. Here's a guide.
+        <a href="https://alttpr.com/en">ALttP Randomizer</a> (also called "ALttPR", "Zelda 3 Rando", or "Z3R")
+        are cute, but you might not always know what they mean, and some of them provide more information
+        than they sound like in subtle ways.
     </p>
-    <p>First of all,
+    <p>Hints are found on the "telepathic tiles" that provided hints in the original game.
         <a href="https://docs.google.com/presentation/d/11G2gu8bJkpqZPXh6_PGiPtfEERzxFxqnLRPqA8xNbx4/edit?usp=drivesdk">
-            this doc by Merc249
-        </a>
-        shows you where the hint tiles are located in the game.
+            This doc by Merc249</a>
+        shows you where the hint tiles are located.
     </p>
 
     <h2>This is too long, just tell me the surprising things</h2>
     <ul>
         <li>
             When an item "requires" another item, it's in a location that <em>always</em>
-            requires that item to access, even in Inverted, Entrance Shuffle, or Enemizer mode.
-            It doesn't depend on the seed you're playing.
+            requires that item to access, in every mode. It doesn't depend on the seed you're playing.
         </li>
         <li>
             An item that "requires the bow" is definitely on the Palace of Darkness boss.
-            The statue that you shoot to get there is the only thing in ALttPR that <em>always</em>
-            requires the bow.
         </li>
         <li>
             If an item is described as "in Misery Mire" or "in Swamp Palace", it's not in one of the
@@ -51,12 +68,18 @@
     <p>First some place names that the rando community uses, which you should know:</p>
     <ul>
         <li><b>Hype Cave</b>: the cave with five items in the dark world, just south of the big bomb shop</li>
-        <li><b>Paradox Cave</b>: the cave with 7 items in east Death Mountain, in the light world, where the entrances don't make sense</li>
+        <li><b>Paradox Cave</b>: the cave with 7 items in east Death Mountain, in the light world,
+            where you paradoxically fall from the bottom entrance to the top one</li>
         <li><b>Superbunny Cave</b>: the Dark World equivalent of Paradox Cave, so named because you can open the chests as a bunny if you come in from the top</li>
     </ul>
     <p>
         Hints that tell you where an item is can describe one or more places. Some of these may be pretty obvious,
         I'm just reassuring you that they're not a trick.
+    </p>
+    <p>
+        Locations can be described as requirements instead, such as "Fire rod requires the hammer".
+        This doesn't refer to the specific logic of the seed. "requires the hammer" is still just a particular
+        list of places, as you'll see below.
     </p>
     <ul>
         <li><b>...awaits in the waterfall</b>: Waterfall Fairy</li>
@@ -64,6 +87,9 @@
         <li><b>...can be dug up</b>: Digging game, or the flute spot in the grove</li>
         <li><b>...can be forged</b>: Blacksmith</li>
         <li><b>...can be found on a stump</b>: the dark haunted grove</li>
+        <li><b>...in the banana stand</b>: this sounds like a location but it isn't a real hint.
+            It's just an "Arrested Development" reference. See "Useless Hints" below.
+        </li>
         <li><b>...is above the Poes</b>: Graveyard Ledge</li>
         <li><b>...is fire locked in Misery Mire</b>: one of the left two chests in Mire</li>
         <li><b>...is held by an old man</b>: the Old Man on Death Mountain. (Who knows how old Saha and Aginah are.)</li>
@@ -109,7 +135,7 @@
         <li><b>...is on a boss</b>: one of the 10 dungeon bosses, there's no trick</li>
         <li><b>...is on a tablet</b>: Ether Tablet or Bombos Tablet</li>
         <li><b>...is under a bridge</b>: Hobo</li>
-        <li><b>...is under some rocks</b>: Pegasus Rocks</li>
+        <li><b>...is under some rocks</b>: Pegasus Rocks (west of the sanctuary)</li>
         <li><b>...is under water</b>:
             <ul>
                 <li>The sunken treasure near the dam</li>
@@ -142,10 +168,12 @@
                 <li>King's Tomb</li>
                 <li>Library</li>
                 <li>Lumberjack Tree</li>
-                <li>Pegasus Rocks (west of the sanctuary)</li>
+                <li>Pegasus Rocks</li>
             </ul>
         </li>
-        <li><b>...requires the bow</b>: Palace of Darkness boss. That's all.</li>
+        <li><b>...requires the bow</b>: Palace of Darkness boss. That's the only location that
+            always requires the bow in every mode.
+        </li>
         <li><b>...requires the Cane of Somaria</b>:
             <ul>
                 <li>Ganon's Tower: the five chests on the right path</li>
@@ -217,7 +245,7 @@
         <li><b>Something sharp</b>: a sword</li>
     </ul>
 
-    <h2>Useless hints</h2>
+    <h2 id="useless-hints">Useless hints</h2>
     <ul>
         <li>10th enemy has the bomb.</li>
         <li>Aim at the eyes of Gohma.</li>
@@ -226,11 +254,15 @@
         <li>Go to the next room.</li>
         <li>Grumble, grumble...</li>
         <li>I bet you'd like to have more bombs.</li>
-        <li>It's a secret to everbody.</li>
+        <li>It's a secret to everybody.</li>
         <li>Secret power is said to be in the arrow.</li>
         <li>Thanks, [your name]. You're the hero of Hyrule</li>
         <li>There's money in the banana stand</li>
     </ul>
 
+<h2>Contributing</h2>
+<p>See something that's wrong, unclear, or needs to be updated? Open an issue for this page
+    <a href="http://github.com/arborelia/alttpr-hints">on GitHub</a>.
+</p>
 </body>
 <html>
